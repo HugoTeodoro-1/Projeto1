@@ -31,15 +31,17 @@
             this.lblMenu = new System.Windows.Forms.Label();
             this.btnCadastro = new System.Windows.Forms.Button();
             this.btnSair = new System.Windows.Forms.Button();
+            this.btnCadastrar = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblMenu
             // 
             this.lblMenu.AutoSize = true;
-            this.lblMenu.Font = new System.Drawing.Font("Swis721 Blk BT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMenu.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMenu.Location = new System.Drawing.Point(335, 87);
             this.lblMenu.Name = "lblMenu";
-            this.lblMenu.Size = new System.Drawing.Size(67, 22);
+            this.lblMenu.Size = new System.Drawing.Size(59, 24);
             this.lblMenu.TabIndex = 0;
             this.lblMenu.Text = "Menu";
             // 
@@ -63,11 +65,31 @@
             this.btnSair.Text = "Sair";
             this.btnSair.UseVisualStyleBackColor = true;
             // 
+            // btnCadastrar
+            // 
+            this.btnCadastrar.Location = new System.Drawing.Point(154, 285);
+            this.btnCadastrar.Name = "btnCadastrar";
+            this.btnCadastrar.Size = new System.Drawing.Size(90, 40);
+            this.btnCadastrar.TabIndex = 3;
+            this.btnCadastrar.Text = "Cadastrar Usuário";
+            this.btnCadastrar.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(355, 205);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(90, 40);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "Cadastrar Usuário";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // frmMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnCadastrar);
             this.Controls.Add(this.btnSair);
             this.Controls.Add(this.btnCadastro);
             this.Controls.Add(this.lblMenu);
@@ -83,5 +105,7 @@
         private System.Windows.Forms.Label lblMenu;
         private System.Windows.Forms.Button btnCadastro;
         private System.Windows.Forms.Button btnSair;
+        private System.Windows.Forms.Button btnCadastrar;
+        private System.Windows.Forms.Button button1;
     }
 }
